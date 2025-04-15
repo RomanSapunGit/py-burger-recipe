@@ -65,7 +65,3 @@ class BurgerRecipe:
         self.cutlets = cutlets
         self.eggs = eggs
         self.sauce = sauce
-
-burger = BurgerRecipe(buns=2, cheese=1, tomatoes=1, cutlets=1, eggs=1, sauce="ketchup")
-print(burger.__dict__)
-print(burger.sauce)
